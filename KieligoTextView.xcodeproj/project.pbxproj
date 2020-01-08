@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08471FB623C47F6A00406570 /* KieligoTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 08471FB423C47F6A00406570 /* KieligoTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08471FBF23C47F8300406570 /* KieligoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08471FBE23C47F8300406570 /* KieligoTextView.swift */; };
+		08471FE523C4992E00406570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08471FE423C4992E00406570 /* AppDelegate.swift */; };
+		08471FE923C4992E00406570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08471FE823C4992E00406570 /* ViewController.swift */; };
+		08471FEC23C4992E00406570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08471FEA23C4992E00406570 /* Main.storyboard */; };
+		08471FEE23C4993000406570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08471FED23C4993000406570 /* Assets.xcassets */; };
+		08471FF123C4993000406570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08471FEF23C4993000406570 /* LaunchScreen.storyboard */; };
+		6950CE09E3F72CCA669B7B25 /* Pods_KieligoTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91F6687B6CA5F77FEBB2E70 /* Pods_KieligoTextView.framework */; };
+		784337F2AEC0F1EE3E0B19AF /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B4D0BCA5236A13600DF196 /* Pods_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08471FB123C47F6A00406570 /* KieligoTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KieligoTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08471FB423C47F6A00406570 /* KieligoTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KieligoTextView.h; sourceTree = "<group>"; };
+		08471FB523C47F6A00406570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08471FBE23C47F8300406570 /* KieligoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KieligoTextView.swift; sourceTree = "<group>"; };
+		08471FE223C4992E00406570 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08471FE423C4992E00406570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08471FE823C4992E00406570 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08471FEB23C4992E00406570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08471FED23C4993000406570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08471FF023C4993000406570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08471FF223C4993000406570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08471FFB23C4B0B400406570 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08471FFC23C4B0B400406570 /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08471FFD23C4B0B400406570 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0847204123C5DA1400406570 /* KieligoTextView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KieligoTextView.podspec; sourceTree = "<group>"; };
+		2880F39F961FFBB833B573D5 /* Pods-KieligoTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KieligoTextView.debug.xcconfig"; path = "Target Support Files/Pods-KieligoTextView/Pods-KieligoTextView.debug.xcconfig"; sourceTree = "<group>"; };
+		2F48C29720AB611916A8BA7B /* Pods-KieligoTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KieligoTextView.release.xcconfig"; path = "Target Support Files/Pods-KieligoTextView/Pods-KieligoTextView.release.xcconfig"; sourceTree = "<group>"; };
+		59B4D0BCA5236A13600DF196 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98729676EF8A9282962981D3 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		A91F6687B6CA5F77FEBB2E70 /* Pods_KieligoTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KieligoTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1199F5860A1CB27AA066544 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08471FAE23C47F6A00406570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6950CE09E3F72CCA669B7B25 /* Pods_KieligoTextView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08471FDF23C4992E00406570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784337F2AEC0F1EE3E0B19AF /* Pods_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08471FA723C47F6A00406570 = {
+			isa = PBXGroup;
+			children = (
+				0847204123C5DA1400406570 /* KieligoTextView.podspec */,
+				08471FB323C47F6A00406570 /* KieligoTextView */,
+				08471FE323C4992E00406570 /* Example */,
+				08471FB223C47F6A00406570 /* Products */,
+				742BA92325B0A3E0D2B4A684 /* Pods */,
+				593BA5C7C92F29FE4A98E344 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08471FB223C47F6A00406570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08471FB123C47F6A00406570 /* KieligoTextView.framework */,
+				08471FE223C4992E00406570 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08471FB323C47F6A00406570 /* KieligoTextView */ = {
+			isa = PBXGroup;
+			children = (
+				08471FB423C47F6A00406570 /* KieligoTextView.h */,
+				08471FB523C47F6A00406570 /* Info.plist */,
+				08471FBE23C47F8300406570 /* KieligoTextView.swift */,
+			);
+			path = KieligoTextView;
+			sourceTree = "<group>";
+		};
+		08471FE323C4992E00406570 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				08471FE423C4992E00406570 /* AppDelegate.swift */,
+				08471FE823C4992E00406570 /* ViewController.swift */,
+				08471FEA23C4992E00406570 /* Main.storyboard */,
+				08471FEF23C4993000406570 /* LaunchScreen.storyboard */,
+				08471FED23C4993000406570 /* Assets.xcassets */,
+				08471FF223C4993000406570 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		593BA5C7C92F29FE4A98E344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08471FFB23C4B0B400406570 /* RxCocoa.framework */,
+				08471FFC23C4B0B400406570 /* RxRelay.framework */,
+				08471FFD23C4B0B400406570 /* RxSwift.framework */,
+				A91F6687B6CA5F77FEBB2E70 /* Pods_KieligoTextView.framework */,
+				59B4D0BCA5236A13600DF196 /* Pods_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		742BA92325B0A3E0D2B4A684 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2880F39F961FFBB833B573D5 /* Pods-KieligoTextView.debug.xcconfig */,
+				2F48C29720AB611916A8BA7B /* Pods-KieligoTextView.release.xcconfig */,
+				B1199F5860A1CB27AA066544 /* Pods-Example.debug.xcconfig */,
+				98729676EF8A9282962981D3 /* Pods-Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08471FAC23C47F6A00406570 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08471FB623C47F6A00406570 /* KieligoTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08471FB023C47F6A00406570 /* KieligoTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08471FB923C47F6A00406570 /* Build configuration list for PBXNativeTarget "KieligoTextView" */;
+			buildPhases = (
+				5F3AC3B644601B73D921D274 /* [CP] Check Pods Manifest.lock */,
+				08471FAC23C47F6A00406570 /* Headers */,
+				08471FAD23C47F6A00406570 /* Sources */,
+				08471FAE23C47F6A00406570 /* Frameworks */,
+				08471FAF23C47F6A00406570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KieligoTextView;
+			productName = KieligoTextView;
+			productReference = 08471FB123C47F6A00406570 /* KieligoTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		08471FE123C4992E00406570 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08471FF523C4993000406570 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				0D241D415407CD8775F1AA4F /* [CP] Check Pods Manifest.lock */,
+				08471FDE23C4992E00406570 /* Sources */,
+				08471FDF23C4992E00406570 /* Frameworks */,
+				08471FE023C4992E00406570 /* Resources */,
+				6D8ED91AF1C980BF34C70AD6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 08471FE223C4992E00406570 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08471FA823C47F6A00406570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "JEZEQUEL ETIENNE";
+				TargetAttributes = {
+					08471FB023C47F6A00406570 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					08471FE123C4992E00406570 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 08471FAB23C47F6A00406570 /* Build configuration list for PBXProject "KieligoTextView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08471FA723C47F6A00406570;
+			productRefGroup = 08471FB223C47F6A00406570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08471FB023C47F6A00406570 /* KieligoTextView */,
+				08471FE123C4992E00406570 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08471FAF23C47F6A00406570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08471FE023C4992E00406570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08471FF123C4993000406570 /* LaunchScreen.storyboard in Resources */,
+				08471FEE23C4993000406570 /* Assets.xcassets in Resources */,
+				08471FEC23C4992E00406570 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D241D415407CD8775F1AA4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3AC3B644601B73D921D274 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KieligoTextView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8ED91AF1C980BF34C70AD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08471FAD23C47F6A00406570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08471FBF23C47F8300406570 /* KieligoTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08471FDE23C4992E00406570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08471FE923C4992E00406570 /* ViewController.swift in Sources */,
+				08471FE523C4992E00406570 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08471FEA23C4992E00406570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08471FEB23C4992E00406570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08471FEF23C4993000406570 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08471FF023C4993000406570 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08471FB723C47F6A00406570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08471FB823C47F6A00406570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08471FBA23C47F6A00406570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2880F39F961FFBB833B573D5 /* Pods-KieligoTextView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KieligoTextView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etienne.KieligoTextView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08471FBB23C47F6A00406570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F48C29720AB611916A8BA7B /* Pods-KieligoTextView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KieligoTextView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etienne.KieligoTextView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08471FF323C4993000406570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1199F5860A1CB27AA066544 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Example/RxCocoa",
+					"$(PROJECT_DIR)/Example/RxRelay",
+					"$(PROJECT_DIR)/Example/RxSwift",
+				);
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etienne.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08471FF423C4993000406570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98729676EF8A9282962981D3 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Example/RxCocoa",
+					"$(PROJECT_DIR)/Example/RxRelay",
+					"$(PROJECT_DIR)/Example/RxSwift",
+				);
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etienne.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08471FAB23C47F6A00406570 /* Build configuration list for PBXProject "KieligoTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08471FB723C47F6A00406570 /* Debug */,
+				08471FB823C47F6A00406570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08471FB923C47F6A00406570 /* Build configuration list for PBXNativeTarget "KieligoTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08471FBA23C47F6A00406570 /* Debug */,
+				08471FBB23C47F6A00406570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08471FF523C4993000406570 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08471FF323C4993000406570 /* Debug */,
+				08471FF423C4993000406570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08471FA823C47F6A00406570 /* Project object */;
+}
