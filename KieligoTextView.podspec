@@ -23,9 +23,6 @@ s.dependency 'RxCocoa'
 
 s.source_files = "KieligoTextView/**/*.{swift}"
 
-s.resources = "KieligoTextView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-s.resource_bundles = { 'KieligoTextView' => ['Pod/**/*.xib'] }
-
 s.swift_version = "5"
 
 end
