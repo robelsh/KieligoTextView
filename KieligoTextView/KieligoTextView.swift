@@ -15,35 +15,33 @@ import RxCocoa
     // MARK: - Privates
     
     private let disposeBag = DisposeBag()
-
+    
+    fileprivate var textView: UITextView = UITextView()
+    fileprivate var charCountLabel: UILabel = UILabel()
+    
     // MARK: - IBInspectable
 
-    @IBInspectable var charLimit: Int = 500 {
+    @IBInspectable private var charLimit: Int = 500 {
         didSet {
             charCountLabel.text = String(charLimit)
         }
     }
-    @IBInspectable var borderColor: UIColor = .clear {
+    @IBInspectable private var borderColor: UIColor = .clear {
         didSet {
             layer.borderColor = borderColor.cgColor
         }
     }
     
-    @IBInspectable var borderWidth: CGFloat = 0 {
+    @IBInspectable private var borderWidth: CGFloat = 0 {
         didSet {
             layer.borderWidth = borderWidth
         }
     }
-    @IBInspectable var borderRadius: CGFloat = 0 {
+    @IBInspectable private var borderRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = borderWidth
         }
     }
-        
-    // MARK: - IBInspectable
-
-    fileprivate var textView: UITextView = UITextView()
-    fileprivate var charCountLabel: UILabel = UILabel()
 
     // MARK: - Lifecycle
 
@@ -99,7 +97,7 @@ extension KieligoTextView {
 extension KieligoTextView: UITextViewDelegate {
     
     public func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
-        return textView.text.count < charLimit || text == ""
+        return (textView.text.count + text.count) < (charLimit + 1) || text == ""
     }
 }
 
@@ -111,5 +109,17 @@ public extension KieligoTextView {
     
     func setLimit(_ limit: Int) {
         charLimit = limit
+    }
+    
+    func setBorderColor(_ borderColor: UIColor) {
+        self.borderColor = borderColor
+    }
+    
+    func setBorderWidth(_ borderWidth: CGFloat) {
+        self.borderWidth = borderWidth
+    }
+    
+    func setBorderRadius(_ borderRadius: CGFloat) {
+        self.borderRadius = borderRadius
     }
 }

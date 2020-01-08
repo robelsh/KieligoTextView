@@ -152,6 +152,7 @@
 				08471FAD23C47F6A00406570 /* Sources */,
 				08471FAE23C47F6A00406570 /* Frameworks */,
 				08471FAF23C47F6A00406570 /* Resources */,
+				0847204723C6157600406570 /* ⚠️ SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -240,6 +241,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0847204723C6157600406570 /* ⚠️ SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "⚠️ SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "POD_DIR=\"$PODS_ROOT/SwiftLint/swiftlint\"\nif which $POD_DIR > /dev/null; then\n$POD_DIR\n# Also warn about IBOutlets not marked private\nSRCDIR=\"$PROJECT_DIR/$PROJECT_NAME\"\ngrep --include '*.swift' --with-filename --line-number -r '\\@IBOutlet' \"$SRCDIR\" | grep -v 'private' | grep -v 'internal' | sed s/':[^:]*\\@IBOutlet.*$'/': warning: IBOutlets should be marked private'/\n# Also warn about non-weak delegates\ngrep --include '*.swift' --with-filename --line-number -ri 'var [a-z]*delegate: [a-z]\\?' \"$SRCDIR\" | grep -v 'weak' | sed s/':[^:]*var .*$'/': warning: delegates should always be weak'/\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		0D241D415407CD8775F1AA4F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

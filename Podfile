@@ -2,12 +2,10 @@
 platform :ios, '11.0'
 use_frameworks!
 
-source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/robelsh/KieligoTextView.git'
-
 def common
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'SwiftLint'
 end
 
 target 'KieligoTextView' do
