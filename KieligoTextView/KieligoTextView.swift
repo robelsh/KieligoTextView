@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-@IBDesignable public class KieligoTextView: UIView {
+public class KieligoTextView: UIView {
     
     // MARK: - Privates
     
@@ -103,7 +103,7 @@ extension KieligoTextView: UITextViewDelegate {
 
 public extension KieligoTextView {
     
-    func getValue() -> ControlProperty<String?> {
+    func getRxTextView() -> ControlProperty<String?> {
         return textView.rx.text
     }
     
