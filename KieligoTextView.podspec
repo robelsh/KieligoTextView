@@ -6,7 +6,7 @@ s.name = "KieligoTextView"
 s.summary = "KieligoTextView is a custom textview for Kieligo iOS App"
 s.requires_arc = true
 
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
